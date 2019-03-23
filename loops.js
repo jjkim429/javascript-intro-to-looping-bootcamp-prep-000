@@ -17,14 +17,13 @@ do {
 }
 
 function forLoop(array) {
-  var loops = [];
   for (var i = 0; i < 25; i++) {
     if (i === 1) {
-      loops.push(`I am ${i} strange loop.`);
+      array.push(`I am ${i} strange loop.`);
     }
     else {
-      loops.push(`I am ${i} strange loops.`);
+      array.push(`I am ${i} strange loops.`);
     }
   }
-  return loops
+  return array
 }
